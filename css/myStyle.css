@@ -1,0 +1,69 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Atma:wght@300&family=Pacifico&display=swap');
+
+  #masthead{
+    background: #dbefff;
+  }
+
+  nav a:hover{
+    background-color: gray;
+
+  }
+  
+nav li{
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+  body{
+    background-color: #FFFEFC;
+  }
+
+  #about{
+    font-family: Atma;
+    font-size:25px;
+  }
+
+
+  h2{
+    font-family: pacifico;
+    font-weight: 900;
+    font-size: 50px;
+    color: #4A6280;
+  }
+
+  h4{font-family: atma;
+    font-weight: 500;
+    font-size: 30px;
+  }
+
+  
+
+  /* footer{
+
+    font-family: atma; */
+  a:link {
+    color: #dbefff;;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color:#336c9b;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color:  #46657e;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #839cb1;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  
