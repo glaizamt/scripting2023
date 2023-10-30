@@ -1,0 +1,146 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Mouse+Memoirs&family=Pacifico&display=swap');
+
+body {
+    background-color: rgb(143, 224, 224);
+    font-family: 'Gabarito', sans-serif;
+    color: black;
+    margin:0;
+
+}
+
+
+/******************************** Header *******************************/
+header {
+
+    background-color:  black;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    padding: 50px;
+}
+
+
+    
+    
+/**************** Nav Bar*************/
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(26, 71, 85);
+    font-family: 'Gabarito', sans-serif;
+    
+ 
+}
+
+nav li {
+    float: left;
+   
+}
+
+nav a,
+nav a:visited {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    background-color: #ca631fdc;
+    ;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+/******************************** Section *******************************/
+
+section {
+    background-color: rgb(143, 224, 224);
+    width: 100%;
+    margin: auto;
+    padding: 15px;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: justify;
+    font-size:large;
+}
+/* .about p{
+    padding: 50px;
+
+} */
+
+
+/* #about img{
+    border-radius:  50%;
+
+} */
+
+  /****************************************/
+
+.alternate {
+    background-color:#1aadd1;
+    padding-left: 20px;
+    
+}
+.alternate img{
+    float: right;
+    padding-left: 50px;
+}
+.personality{
+    float: right;
+    padding-left: 100px;
+}
+.knowledge{
+    float: left;
+    padding-right: 20px;
+}
+
+#about img{
+    float: left;
+    padding-right: 20px;
+}
+/* .family{ 
+    float: right;
+    padding-left: 35px;
+} */
+
+.logo img{
+    float: left;
+    padding-right: 50px;
+
+}
+.reference a{
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+a {
+    color: white
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color:  white;
+}
+
+a:active {
+    color: #e0dbcd
+}
