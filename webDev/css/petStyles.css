@@ -1,0 +1,24 @@
+header{
+    background-image:  url('../images/doghead.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 75vh;
+}
+
+
+#serviceHeader
+{ background-image:  url('../images/backgrounds/Boy.jpg');
+    background-position: center;
+   }
+
+
+.bg-bluegreen
+{
+    background-color: rgb(21, 165, 158);
+}
+
+.nav-link{
+    color: rgb(255, 255, 255) !important
+}
+
+footer a{ color: white }
